@@ -10,11 +10,9 @@
 
 /* Fundo inicial (Criado uma div apenas para por o fundo*/
 #fundo {
-    /*background: url("/img/Index/Fundo.png"); /*Imagem de fundo*/
     background: url(/img/Index/Fundo.jpg);
     background-size: cover;
     height: 100vh;
-
 }
 
 section {

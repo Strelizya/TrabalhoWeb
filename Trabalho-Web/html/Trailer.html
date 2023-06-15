@@ -17,15 +17,25 @@
 <style>
 /* Arrumando a possição e largura do video */
 video {
+    display: flex;
     height: 720px;
     width: 1280px;
     display: block;
     margin: auto;
-    border-radius: 20px;
-    position: relative;
-    padding: 10px;
+    padding: 35px;
+    align-items: center; 
     z-index: 0;
 }
+
+
+@media only screen and (max-width: 800px) {
+    video{
+
+        height: 430px;
+        width: 700px;
+    }
+}
+
 
 </style>
 
